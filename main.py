@@ -13,6 +13,11 @@ import seaborn as sns
 from scipy.optimize import minimize
 import warnings
 from sklearn.covariance import OAS
+from class.backtest import *
+from class.cleaning import *
+from class.optimizer import *
+from class.sigma import *
+
 
 warnings.filterwarnings("ignore")
 sns.set_style("whitegrid")
